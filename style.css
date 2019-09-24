@@ -20,6 +20,7 @@ body {
 
 nav#nav-bar {
   align-items: center;
+  background: linear-gradient(0deg, rgb(145, 145, 155) 0%, rgb(110, 110, 120) 50%, rgb(95, 95, 105) 50%, rgb(120, 120, 130) 100%);
   background-color: rgb(120, 120, 130);
   border: 1px solid rgb(125, 125, 125);
   border-radius: 5px;
@@ -32,9 +33,6 @@ nav#nav-bar {
   width: 90%;
 }
 
-nav#nav-bar {
-  background: linear-gradient(0deg, rgb(145, 145, 155) 0%, rgb(110, 110, 120) 50%, rgb(95, 95, 105) 50%, rgb(120, 120, 130) 100%);
-}
 
 li {
   list-style: none;
@@ -77,13 +75,13 @@ ul#menu-list li {
   width: 100%;
 }
 
+#menu-list li {
+    width: 10%;
+  }
+
 #menu-list li button:hover {
   cursor: pointer;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.3) 100%);
-}
-
-#menu-list li {
-  width: 10%;
 }
 
 .search-input {
