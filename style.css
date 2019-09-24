@@ -56,6 +56,20 @@ ul#menu-list li {
   color: #000;
 }
 
+.site-map-links ul {
+    margin: 0;
+}
+  
+.site-map-links ul li {
+    display: inline-block;
+}
+  
+.site-map-links ul li a img {
+    position: absolute;
+    top: 8px;
+    right: -16px;
+}
+
 #menu-list {
   margin: 0;
   padding: 0;
@@ -231,18 +245,4 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-}
-
-.site-map-links ul {
-  margin: 0;
-}
-
-.site-map-links ul li {
-  display: inline-block;
-}
-
-.site-map-links ul li a img {
-  position: absolute;
-  top: 8px;
-  right: -16px;
 }
