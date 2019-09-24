@@ -37,6 +37,10 @@ li {
   list-style: none;
 }
 
+.site-map-links ul li {
+  display: inline-block;
+}
+
 .site-map ul li,
 #menu-list li {
   display: inline-block;
@@ -234,11 +238,6 @@ footer {
 
 .site-map-links ul {
   margin: 0;
-}
-
-.site-map-links ul li,
-#menu-list li {
-  display: inline-block;
 }
 
 .site-map-links ul li a img {
