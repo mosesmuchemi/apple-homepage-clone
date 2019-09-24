@@ -18,10 +18,10 @@ body {
   position: absolute;
 }
 
-nav{
+nav {
   align-items: center;
-  background-color: rgb(120, 120, 130);
   background: linear-gradient(0deg, rgb(145, 145, 155) 0%, rgb(110, 110, 120) 50%, rgb(95, 95, 105) 50%, rgb(120, 120, 130) 100%);
+  background-color: rgb(120, 120, 130);
   border: 1px solid rgb(125, 125, 125);
   border-radius: 5px;
   box-shadow: 1px 2px 2px rgba(50, 50, 50, 0.3);
@@ -85,7 +85,7 @@ li {
 
 .search-input {
   border-radius: 12px;
-  box-shadow: inset 0.5px -0.5px 0.5px rgba(200, 200, 200, 0.4),  inset 0 1px 1px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0.5px -0.5px 0.5px rgba(200, 200, 200, 0.4), inset 0 1px 1px rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -141,6 +141,7 @@ a {
   cursor: pointer;
   text-decoration-line: underline;
 }
+
 #first-link {
   height: 95px;
 }
@@ -169,6 +170,7 @@ a {
 .promo-image {
   border-left: 2px solid #fff;
 }
+
 .promo-image img {
   height: 100%;
   width: 100%;
@@ -212,7 +214,7 @@ a {
 
 footer {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  font-size: .6334em;
+  font-size: 0.6334em;
   line-height: 1.2;
 }
 
