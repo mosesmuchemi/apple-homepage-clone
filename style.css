@@ -56,24 +56,37 @@ ul#menu-list li {
   color: #000;
 }
 
+.promo-image {
+  border-left: 2px solid #fff;
+}
+  
+.promo-image img {
+  height: 100%;
+  width: 100%;
+}
+  
 .site-map-links ul {
-    margin: 0;
+  margin: 0;
 }
   
 .site-map-links ul li {
-    display: inline-block;
+  display: inline-block;
 }
   
 .site-map-links ul li a img {
-    position: absolute;
-    top: 8px;
-    right: -16px;
+  position: absolute;
+  top: 8px;
+  right: -16px;
 }
 
 #menu-list {
   margin: 0;
   padding: 0;
   width: 100%;
+}
+
+#menu-list li {
+  width: 10%;
 }
 
 #menu-list li button {
@@ -88,11 +101,7 @@ ul#menu-list li {
   text-shadow: 0 -1px 1px #333;
   width: 100%;
 }
-
-#menu-list li {
-    width: 10%;
-  }
-
+  
 #menu-list li button:hover {
   cursor: pointer;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.3) 100%);
@@ -179,15 +188,6 @@ a {
   height: 69vh;
   min-height: 520px;
   max-height: 1180px;
-  width: 100%;
-}
-
-.promo-image {
-  border-left: 2px solid #fff;
-}
-
-.promo-image img {
-  height: 100%;
   width: 100%;
 }
 
