@@ -10,7 +10,7 @@ The assignment is to create a clone of the apple.com archive link. The complete 
 
 #### [Project Code Repository Link](https://github.com/mosesmuchemi/apple-homepage-clone)
 
-#### [Live Version](#)
+#### [Live Version](https://mosesmuchemi.github.io/apple-homepage-clone/)
 
 #### Author
 
